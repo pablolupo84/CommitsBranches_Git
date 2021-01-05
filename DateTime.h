@@ -42,7 +42,6 @@ namespace UDateTime{
 	// Postcondicion: Devuelve los segundos de @dateTime.
 	unsigned int GetSeconds(const DateTime* dateTime);
 
-
 	// Precondicion: @dateTime es una instancia válida
 	// Postcondicion: Devuelve @dateTime en el formato especificado por @format.
 	// Valores esperados por cada formato.

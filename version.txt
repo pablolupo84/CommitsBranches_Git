@@ -1,0 +1,55 @@
+/*******************************************************************
+	Correcciones Entrega 1
+	
+	* Pierde memoria la funcion destruir implementada en Context. -> OK
+	* Se utiliza mal la funcion srand().-> OK
+	* No se realiza bien el destruir de Commit, ya que no se libera la memoria de DateTime*. -> OK
+	* No duplicar las pre y post condiciones tanto en el .h como en el .cpp. -> OK
+	* Ser coherente con las funciones destruir. Si las instancias son validas, no es necesario validar que sean !=NULL. -> OK
+	
+/*******************************************************************
+	Correcciones Entrega 2
+	
+	* Implementacion de singleton en BranchRegister. -> OK.
+	* GetCurrentBranchRegister -> GetInstance. -> OK.
+	* Primitiva sonIguales -> se pasa a TDA Branch. OK.
+	* Primitiva Destruir de la Register -> OK.
+	* Funcion RemoveItem - TDA Listas -> OK.
+	* Destruir en TDA Listas  -> ok.
+	* Destruir de GIT -> OK.
+	* CommitBagIterador -> ok.
+	
+	REVISION DE CODIGO
+	* Codigo comentado -> OK.
+	* revision de includes de mas. -> ok varios 
+	* spanghlish -> OK.
+	* Branch Register coleccion generica + funcion de comparacion -> ok.
+	* Codigo No regular -> Enters aleatorios . OK.
+	* Funcion ObtenerUltimoNodo no se utiliza -> OK
+	* TDA Git-> Intancia EN VARIABLE -> OK.
+	* HOOKS (puntero a funcion y pu tero cast a void *) -> REVISAR
+	
+/*******************************************************************
+
+	Agregado y Modificaciones Entrega 3
+	
+	* Cambios en Context
+		User* GetCurrentUser() => Debe devolver un usuario random de entre 5. OK
+		DateTime* GetNow() => Devuelve siempre un Fecha y hora distinta superior a la ultima dada. (185 SEG) OK
+	
+	* TDA CommitGraph -> OK.
+	
+	* Modificar Merge de GIT.h-> OK.
+	
+	* garbage collector en git -> OK.
+	
+	* grafo dirigido aciclico.Es decir que por cada nuevo commit que cree git debe ir construyendo el grafo
+	 (realizando las conexiones del commit con su antecesor) -> OK.
+		
+	* LOG GRAPH CON RECORRIDO BFS. -> EN CURSO.
+	
+	
+	*LOGRADO EN PRINCIPIO...MODIFICAR TODO EL IDIOMA DEL BFS-> NO TUVE TIEMPO.
+	
+/**********************************************************************
+	

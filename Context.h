@@ -10,13 +10,11 @@ using UDateTime::DateTime;
 namespace UContext{
 
 	// Precondicion: Ninguna
-	// Postcondicion: Obtiene el usuario actual.
-	// Para la entrega actual debe crear un unico usuario
-	// y siempre debe devolver esa misma instancia de usuario
+	// Postcondicion: Obtiene el usuario actual. Debe devolver un usuario random de entre 5.
 	User* GetCurrentUser();
 
 	// Precondicion: Ninguna
-	// Postcondicion: Libera todos los recursos asociados al contexto
+	// Postcondicion: Devuelve siempre un Fecha y hora distinta superior a la ultima dada
 	DateTime* GetNow();
 
 	// Precondicion: Ninguna
